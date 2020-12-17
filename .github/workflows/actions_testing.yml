@@ -21,10 +21,10 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           echo ${GITHUB_REF##*/}
-          if [ "${GITHUB_REF##*/}" == "main"]
+          if [ "${GITHUB_REF##*/}" == "main" ]
           then
-            echo master
+              echo master
           else
-            echo not master
+              echo not master
           fi
           
